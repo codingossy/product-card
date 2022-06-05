@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    height: 100vh;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.fa-times{
+    margin-top: -14rem;
+    margin-bottom: 5rem;
+    margin-left: 10rem;
+    font-size: 2rem;
+}
+
+.transition{
+    transition: 200ms ease-in;
+}
+.text-shadow{
+    text-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+}
